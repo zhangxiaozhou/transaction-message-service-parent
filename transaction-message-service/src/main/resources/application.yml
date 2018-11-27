@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: transaction-message-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/transaction_message_service?characterEncoding=utf8&useSSL=false
+    username: root
+    password: yunaxiaozhou1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+  aop:
+    proxy-target-class: true
+    auto: true
+
+server:
+  port: 8000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+mybatis:
+  type-aliases-package: com.allen.trustymessageservice.domain
+  type-handlers-package: com.allen.trustymessageservice.typehandler
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 60
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  level:
+    root: info
+    com.allen.transactionmessageservice.mapper: debug

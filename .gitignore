@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+将删除 .idea/workspace.xml
+将删除 app1/src/main/java/com/allen/app1/typehandler/
+将删除 app1/src/main/java/generator/
+将删除 app1/src/main/resources/generator/
+将删除 app1/src/main/resources/static/
+将删除 app1/src/main/resources/templates/
+将删除 app2/src/main/java/com/allen/app2/service/
+将删除 app2/src/main/java/com/allen/app2/typehandler/
+将删除 app2/src/main/java/generator/
+将删除 app2/src/main/resources/generator/
+将删除 app2/src/main/resources/static/
+将删除 eureka/src/main/resources/static/
+将删除 eureka/src/main/resources/templates/
+将删除 transaction-message-service-web/src/main/resources/static/
+将删除 transaction-message-service-web/target/
+将删除 transaction-message-service/src/main/java/com/allen/transactionmessageservice/typehandler/
+将删除 transaction-message-service/src/main/java/generator/
+将删除 transaction-message-service/src/main/resources/generator/
+将删除 transaction-message-service/src/main/resources/static/
